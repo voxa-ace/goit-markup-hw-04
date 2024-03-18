@@ -11,11 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet"
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer">
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -23,40 +25,45 @@
     <header>
       <div class="container" id="header-container">
         <nav>
-          <a href="./index.html" class="logo header-container"
-          >WEB<span class="logo-accent-dark">STUDIO</span></a>
+          <a href="./index.html" class="logo header-logo"
+            >WEB<span class="logo-accent-dark">STUDIO</span></a
+          >
 
-            <ul class="navigation-tabs">
-              <li>
-                <a href="./index.html" class="nav-link">Studio</a>
-              </li>
-              <li>
-                <a href="./portfolio.html" class="nav-link">Portfolio</a>
-              </li>
-              <li>
-                <a href="#" class="nav-link">Contacts</a>
-              </li>
-            </ul>
+          <ul class="navigation-tabs">
+            <li>
+              <a href="./index.html" class="nav-link current">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">Contacts</a>
+            </li>
+          </ul>
         </nav>
 
-            <address>
-              <ul class="address-list">
-                <li>
-                    <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+110001111111" class="address-link">+11 (000) 111-11-11</a>
-                </li>
-              </ul>
-            </address>
-        </div>
+        <address>
+          <ul class="addresses-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <section class="order-section">
         <div class="container">
           <h1 class="slogan">Effective Solutions<br />for Your Business</h1>
-          <button type="button" class="order-service-button">
+          <button type="button" class="order-service-button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -69,7 +76,7 @@
           <ul class="advantages-list">
             <li class="advantages-list-item">
               <div class="advantages-icon">
-                <svg>
+                <svg width="64px" height="64px">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -81,7 +88,7 @@
             </li>
             <li class="advantages-list-item">
               <div class="advantages-icon">
-                <svg>
+                <svg width="64px" height="64px">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -93,7 +100,7 @@
             </li>
             <li class="advantages-list-item">
               <div class="advantages-icon">
-                <svg>
+                <svg width="64px" height="64px">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -105,7 +112,7 @@
             </li>
             <li class="advantages-list-item">
               <div class="advantages-icon">
-                <svg>
+                <svg width="64px" height="64px">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -313,6 +320,7 @@
           </ul>
         </div>
       </section>
+
       <section class="customers-section">
         <div class="container">
           <h2 class="section-title">Customers</h2>
